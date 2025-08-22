@@ -1,0 +1,199 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: 16px/28px arial;
+	background-color: plum;
+	background-image: url(Gambar/ugu.jpg);
+	background-size: cover;
+}
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: orange;
+	border-bottom: 4px solid black;
+	z-index: 9999;
+}
+
+.raka {
+	width: 960px;
+    margin: 80px auto; 
+	background-color: white;
+	margin-bottom: -5px;
+	background-image: url(Gambar/kui.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+h1.tanda {
+	color: white;
+	float: right;
+	font-size: 80px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+h1.tindi {
+	color: white;
+	float: right;
+	font-size: 15px;
+	margin-right: 12px;
+	margin-top: 30px;
+}
+
+.instagram {
+	width: 100px;
+	height: 100px;
+	background-image: url(Gambar/insatagram.png);
+	display: inline-block;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	position: absolute;
+	right: 0;
+}
+
+.naruto {
+	padding: 20px;
+}
+
+
+.naruto .boruto {
+	font-size: 35px;
+	font-weight: bold;
+	background-color: yellow;
+	display: inline-block;
+	color: purple;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.naruto h3 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 28px;
+	color: yellow;
+	font-weight: bold;
+}
+
+.naruto ul li{
+	display: inline-block;
+	margin: 40px 37px;
+}
+
+.naruto ul li a {
+	text-decoration: overline;
+	color: yellow;
+	font-weight: bold;
+	margin: 35px;
+}
+
+.naruto ul li a:hover {
+	color: purple;
+	background-color: yellow;
+	border: 1px solid yellow;
+}
+
+.mak {
+	height: 770px;
+	background-image: url(Gambar/ps1-5_cover.png);
+	background-size: cover;
+	border-bottom: 4px solid blue;
+	border-top: 4px solid orange;
+}
+
+.bih {
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: xx-large;
+	margin: 20px;
+	color: yellow;
+}
+
+.main p {
+	text-align: justify;
+	margin: 20px;
+	font-size: medium;
+	color: orange;
+}
+
+.bahu {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin: 5px 2px;
+	background-color: black;
+	clear: both;
+}
+
+.main {
+	width: 600px;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.side {
+	color: orange;
+	padding: 20px;
+	width: 300px;
+	float: right;
+}
+.side h3 {
+	font-weight: bold;
+	color: orangered;
+}
+.side img {
+	width: 72px;
+	height: 100px;
+	float: left;
+	padding-right: 10px;
+}
